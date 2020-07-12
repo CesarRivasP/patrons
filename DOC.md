@@ -28,3 +28,11 @@ Exiten 3 tipos de patrones, segun Addy Osmani:
 
 - Estructura: nos va a proporcionar una interfaz sencilla o una forma de poder comunicar dos estructuras distintas de una manera mas simple.
 - Comportamiento: Nos van a ayudar a desacoplar nuestro codigo de manera que pueda ser mas facil mantenerlo.
+
+
+
+### Clousures
+Si bien no es un patron, es una funcionalidad que tiene javascript la cual nos va a permitir reutilizar codigo.
+
+### Programacion Tacita o Point Free
+Es un estilo de programacion es donde nos olvidamos de los argumentos de una funcion. Es una tecnica utilizada cuando se quiere realizar composicion o cuando se quiere eliminar codigo boilerplate o cuando se quiere ordenar mejor el codigo
