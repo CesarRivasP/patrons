@@ -36,3 +36,6 @@ Si bien no es un patron, es una funcionalidad que tiene javascript la cual nos v
 
 ### Programacion Tacita o Point Free
 Es un estilo de programacion es donde nos olvidamos de los argumentos de una funcion. Es una tecnica utilizada cuando se quiere realizar composicion o cuando se quiere eliminar codigo boilerplate o cuando se quiere ordenar mejor el codigo
+
+### Currying
+Es la tecnica que transforma todas las funciones en funciones "unary" o "unarias". Basicamente son funciones que solo reciben un argumento.
