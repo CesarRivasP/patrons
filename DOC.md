@@ -24,9 +24,13 @@ Exiten 3 tipos de patrones, segun Addy Osmani:
     A diferencia del patron anterior, tiene una api publica y otra privada, cosa que no pasa en el patron modulo, donde toda la api es publica. Este patron nos proporciona la ventaja de que no se va a tener que utilizar siempre la sintaxis de objetos literales para definir un modulo, sino que se van a poder definir funciones para poder crear nuestro modulo o se van a poder utilizar los ifis?¿
 
   * Patron Prototipo
-    ESta basado en que se puede tomar un objeto que ya se encuentra definido, y en base a ese objeto vamos a poder empezar a generar prototipos para otros objetos, de esta manera, eliminando la duplicidad de codigo.
+    Esta basado en que se puede tomar un objeto que ya se encuentra definido, y en base a ese objeto vamos a poder empezar a generar prototipos para otros objetos, de esta manera, eliminando la duplicidad de codigo.
 
 - Estructura: nos va a proporcionar una interfaz sencilla o una forma de poder comunicar dos estructuras distintas de una manera mas simple.
+  * Patron Mixin
+    Nos va a ayudar a tomar una clase que ya existe, y empezar a agregarle mas funcionalidades sin necesidad de alterar la clase, esto quiere decir que todas las instancias que se generen de esta clase van a seguir siendo instancias de esta misma clase.
+  * Patron decorador
+    Este toma todas las instancias de una clase y les va agregando nuevas funcionalidades a esta.
 - Comportamiento: Nos van a ayudar a desacoplar nuestro codigo de manera que pueda ser mas facil mantenerlo.
 
 
