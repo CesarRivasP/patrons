@@ -9,6 +9,13 @@ const users = [
 
 //Cuando compose parezca muy complicada o confusa
 const compose = (...fns) => (x) => fns.reduceRight((y, f) => f(y), x);
+// la primera vez que llamemos a compose va a recibir (...fns) -> esto lo que hace es tomar todos los argumentos que le 
+// llegan a componse y los transforma en un array para que sea mas facil de manejar
+// la segunda vez que se llame compose, va a recibir (x), que puede ser un array o un elemento en particular, pero este va a
+// ser el input principal esta funcion que se esta componiendo.
+// y es equivalente a las funciones acumuladas, y f es la funcion que se esta iterando.
+// Por lo que se llama a f() con las funciones acumuladas de y. Como esto no se esta ejecutando inmediatamente, va a partir
+// con x
 
 const pipe = (...fns) => (x) => fns.reduce((y, f) => f(y), x);
 
@@ -32,5 +39,7 @@ const traerPrimerInfante = pipe(
   formateo,
   formato
 );
+
+// traerPrimerInfante(users)
 
 //Pipe y compose son equivalentes
